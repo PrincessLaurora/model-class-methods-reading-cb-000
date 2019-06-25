@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     else
       @posts = Post.all
     end
-  end  
+  end
 
   def show
     @post = Post.find(params[:id])
